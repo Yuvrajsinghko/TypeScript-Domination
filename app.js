@@ -34,4 +34,4 @@ function ab(a, b) {
 }
 function getUserData(obj) {
 }
-getUserData({ name: "yu", email: 'ff', password: 'fd' });
+getUserData({ name: "yu", email: 'ff', password: 'fd', gender: 'male' });
