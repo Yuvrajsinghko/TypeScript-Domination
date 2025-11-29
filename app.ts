@@ -88,6 +88,12 @@ type overUser = {
 };
 
 
-type Admin =User & {
+type admin =User & {
   getDetails(user:string):void
 };
+
+class Device{
+    name="LG"
+    price=120000
+    category="digital"
+}

@@ -35,3 +35,10 @@ function ab(a, b) {
 function df(obj) {
     obj.admin = true;
 }
+class Device {
+    constructor() {
+        this.name = "LG";
+        this.price = 120000;
+        this.category = "digital";
+    }
+}
