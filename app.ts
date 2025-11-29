@@ -41,15 +41,25 @@ function ab(a:number,b:string){
     
 }
 
+// interface User{
+//     name:string,
+//     email:string,
+//     password:string,
+//     gender?:string
+// }
+// function getUserData(obj:User){
+
+    
+// }
+
+// getUserData({name:"yu",email:'ff',password:'fd',gender:'male'})
+
+//Extending Interfaces
 interface User{
     name:string,
     email:string,
     password:string,
     gender?:string
 }
-function getUserData(obj:User){
 
-    
-}
 
-getUserData({name:"yu",email:'ff',password:'fd',gender:'male'})
