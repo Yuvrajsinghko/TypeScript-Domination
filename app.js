@@ -35,3 +35,4 @@ function ab(a, b) {
 function df(obj) {
     obj.admin = true;
 }
+let a;

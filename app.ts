@@ -40,7 +40,6 @@ function ab(a:number,b:string){
     console.log("hi");
     
 }
-
 // interface User{
 //     name:string,
 //     email:string,
@@ -69,3 +68,11 @@ interface Admin extends User{
 function df(obj:Admin){
     obj.admin=true
 }
+
+//Type Aliases
+
+type sankhya = number;
+
+let a:sankhya;
+
+
