@@ -62,4 +62,10 @@ interface User{
     gender?:string
 }
 
+interface Admin extends User{
+    admin:boolean
+}
 
+function df(obj:Admin){
+    obj.admin=true
+}

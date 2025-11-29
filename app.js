@@ -32,3 +32,6 @@
 function ab(a, b) {
     console.log("hi");
 }
+function df(obj) {
+    obj.admin = true;
+}
