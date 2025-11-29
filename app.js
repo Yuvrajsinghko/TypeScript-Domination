@@ -42,3 +42,6 @@ class Device {
         this.category = "digital";
     }
 }
+let d1 = new Device();
+
+

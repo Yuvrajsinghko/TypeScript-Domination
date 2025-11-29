@@ -92,8 +92,14 @@ type admin =User & {
   getDetails(user:string):void
 };
 
+
+//Classes and Objects
 class Device{
     name="LG"
     price=120000
     category="digital"
 }
+
+let d1=new Device();
+
+
