@@ -75,4 +75,11 @@ type sankhya = number;
 
 let a:sankhya;
 
+type value=string | number|boolean;
+
+let m:value;
+m='44'
+m=true
+m=455
+
 
