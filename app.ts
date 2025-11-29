@@ -36,9 +36,8 @@
 
 //Interfaces and Type Aliases
 
-function ab(a:number,b:string){
-    console.log("hi");
-    
+function ab(a: number, b: string) {
+  console.log("hi");
 }
 // interface User{
 //     name:string,
@@ -48,38 +47,47 @@ function ab(a:number,b:string){
 // }
 // function getUserData(obj:User){
 
-    
 // }
 
 // getUserData({name:"yu",email:'ff',password:'fd',gender:'male'})
 
 //Extending Interfaces
-interface User{
-    name:string,
-    email:string,
-    password:string,
-    gender?:string
+interface User {
+  name: string;
+  email: string;
+  password: string;
+  gender?: string;
 }
 
-interface Admin extends User{
-    admin:boolean
+interface Admin extends User {
+  admin: boolean;
 }
 
-function df(obj:Admin){
-    obj.admin=true
+function df(obj: Admin) {
+  obj.admin = true;
 }
 
 //Type Aliases
 
-type sankhya = number;
+// type sankhya = number;
 
-let a:sankhya;
+// let a:sankhya;
 
-type value=string | number|boolean;
+// type value=string | number|boolean;
 
-let m:value;
-m='44'
-m=true
-m=455
+// let m:value;
+// m='44'
+// m=true
+// m=455
+
+//Union And Intersection types
+
+type overUser = {
+  name: string;
+  email: string;
+};
 
 
+type Admin =User & {
+  getDetails(user:string):void
+};

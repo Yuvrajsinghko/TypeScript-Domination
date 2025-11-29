@@ -35,8 +35,3 @@ function ab(a, b) {
 function df(obj) {
     obj.admin = true;
 }
-let a;
-let m;
-m = '44';
-m = true;
-m = 455;
