@@ -43,6 +43,11 @@ function ab(a:number,b:string){
 
 interface User{
     name:string,
-    email:string
+    email:string,
+    password:string
 }
-function getUserData(obj:)
+function getUserData(obj:User){
+    
+}
+
+getUserData({name:"yu",email:'ff',password:'fd'})

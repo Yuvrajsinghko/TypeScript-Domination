@@ -32,3 +32,6 @@
 function ab(a, b) {
     console.log("hi");
 }
+function getUserData(obj) {
+}
+getUserData({ name: "yu", email: 'ff', password: 'fd' });
