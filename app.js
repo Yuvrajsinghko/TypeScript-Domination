@@ -32,6 +32,9 @@
 function ab(a, b) {
     console.log("hi");
 }
+// let atc:User={}
+function getUserData(obj) {
+}
 function df(obj) {
     obj.admin = true;
 }

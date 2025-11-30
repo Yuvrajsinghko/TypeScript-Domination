@@ -39,15 +39,17 @@
 function ab(a: number, b: string) {
   console.log("hi");
 }
-// interface User{
-//     name:string,
-//     email:string,
-//     password:string,
-//     gender?:string
-// }
-// function getUserData(obj:User){
+interface User{
+    name:string,
+    email:string,
+    password:string,
+    gender?:string
+}
 
-// }
+// let atc:User={}
+function getUserData(obj:User){
+  
+}
 
 // getUserData({name:"yu",email:'ff',password:'fd',gender:'male'})
 
