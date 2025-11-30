@@ -26,3 +26,20 @@ class boom {
         console.log(this.name);
     }
 }
+//Access Modifiers:Public,Private,Protected
+class Tuna {
+    constructor(name) {
+        this.name = name;
+    }
+}
+class TunaMeta extends Tuna {
+    constructor(name) {
+        super(name);
+    }
+    getValue() {
+        console.log(this.name);
+    }
+}
+let b1 = new TunaMeta("hella");
+b1.getValue();
+// b1.name='Hum hum'

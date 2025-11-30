@@ -107,10 +107,30 @@ class bottleMaker {
 //this keyword in Classes
 
 class boom {
-  constructor(public name: string) {
-    
-  }
+  constructor(public name: string) {}
   logName() {
     console.log(this.name);
   }
 }
+
+//Access Modifiers:Public,Private,Protected
+
+class Tuna {
+  constructor(public name: string) {}
+}
+
+class TunaMeta extends Tuna {
+  constructor(name: string) {
+    super(name);
+  }
+
+  getValue(){
+    console.log(this.name);
+    
+  }
+}
+
+let b1 = new TunaMeta("hella");
+
+b1.getValue()
+// b1.name='Hum hum'
