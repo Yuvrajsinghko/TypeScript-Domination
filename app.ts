@@ -124,13 +124,24 @@ class TunaMeta extends Tuna {
     super(name);
   }
 
-  getValue(){
+  getValue() {
     console.log(this.name);
-    
   }
 }
 
 let b1 = new TunaMeta("hella");
 
-b1.getValue()
+
 // b1.name='Hum hum'
+
+//Readonly Properties:when we don't want to change something it will be constant throughout the class than we use readonly keyword
+
+class Neon {
+  constructor(public readonly name: string) {}
+  changeName() {
+    console.log(this.name);
+    
+  }
+}
+let f1 = new Neon("Yuvraj");
+f1.changeName();
