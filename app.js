@@ -21,6 +21,7 @@ class bottleMaker {
 class boom {
     constructor(name) {
         this.name = name;
+        this.name = name;
     }
     logName() {
         console.log(this.name);

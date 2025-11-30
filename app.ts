@@ -107,7 +107,9 @@ class bottleMaker {
 //this keyword in Classes
 
 class boom {
-  constructor(public name: string) {}
+  constructor(public name: string) {
+    this.name = name;
+  }
   logName() {
     console.log(this.name);
   }
