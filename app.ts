@@ -107,4 +107,4 @@ class bottleMaker{
 
 }
 
-let d1 = new bottleMaker('milton',450)
+let d1 = new bottleMaker('Milton',450)
