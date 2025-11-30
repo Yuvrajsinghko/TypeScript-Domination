@@ -93,7 +93,7 @@ type admin =User & {
 };
 
 
-//Classes and Objects
+//Classes and Objects, Constructors
 class Device{
     name="LG"
     price=120000

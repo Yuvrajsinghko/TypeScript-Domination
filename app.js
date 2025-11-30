@@ -35,6 +35,7 @@ function ab(a, b) {
 function df(obj) {
     obj.admin = true;
 }
+//Classes and Objects, Constructors
 class Device {
     constructor() {
         this.name = "LG";
@@ -43,5 +44,3 @@ class Device {
     }
 }
 let d1 = new Device();
-
-
