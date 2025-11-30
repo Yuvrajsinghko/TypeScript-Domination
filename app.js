@@ -43,13 +43,24 @@ class TunaMeta extends Tuna {
 let b1 = new TunaMeta("hella");
 // b1.name='Hum hum'
 //Readonly Properties:when we don't want to change something it will be constant throughout the class than we use readonly keyword
-class Neon {
-    constructor(name) {
+// class Neon {
+//   constructor(public readonly name: string) {}
+//   changeName() {
+//     console.log(this.name);
+//   }
+// }
+// let f1 = new Neon("Yuvraj");
+// f1.changeName();
+class Neo {
+    constructor(name, age, gender) {
         this.name = name;
+        this.age = age;
+        this.gender = gender;
     }
-    changeName() {
+    logData() {
         console.log(this.name);
+        console.log(this.age);
+        console.log(this.gender);
     }
 }
-let f1 = new Neon("Yuvraj");
-f1.changeName();
+let g1 = new Neo("Yuv", 24);
