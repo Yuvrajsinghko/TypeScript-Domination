@@ -108,7 +108,7 @@ class bottleMaker {
 
 class boom {
   constructor(public name: string) {
-    this.name = name;
+    
   }
   logName() {
     console.log(this.name);
