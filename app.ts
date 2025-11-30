@@ -36,20 +36,20 @@
 
 //Interfaces and Type Aliases
 
-function ab(a: number, b: string) {
-  console.log("hi");
-}
-interface User{
-    name:string,
-    email:string,
-    password:string,
-    gender?:string
-}
+// function ab(a: number, b: string) {
+//   console.log("hi");
+// }
+// interface User{
+//     name:string,
+//     email:string,
+//     password:string,
+//     gender?:string
+// }
 
-// let atc:User={}
-function getUserData(obj:User){
-  
-}
+// // let atc:User={}
+// function getUserData(obj:User){
+
+// }
 
 // getUserData({name:"yu",email:'ff',password:'fd',gender:'male'})
 
@@ -89,24 +89,26 @@ type overUser = {
   email: string;
 };
 
-
-type admin =User & {
-  getDetails(user:string):void
+type admin = User & {
+  getDetails(user: string): void;
 };
 
-
 //Classes and Objects, Constructors
-class Device{
-    name="LG"
-    price=120000
-    category="digital"
+class Device {
+  name = "LG";
+  price = 120000;
+  category = "digital";
 }
 
-class bottleMaker{
-  constructor(public name:string,public price:number){
+class bottleMaker {
+  constructor(public name: string, public price: number) {}
+}
 
+//this keyword in Classes
+
+class boom {
+  constructor(public name: string) {}
+  logName() {
+    console.log(this.name);
   }
-
 }
-
-let d1 = new bottleMaker('Milton',450)
