@@ -149,13 +149,23 @@ class Neo {
   constructor(
     public name: string,
     public age: number,
-    public gender?: number
-  ) {}
+    public gender?: string
+  ) {
+    if(!this.gender){
+      console.log("Not mentioned");
+      
+    }else{
+      console.log(this.gender)
+    }
+  }
   logData() {
     console.log(this.name);
     console.log(this.age);
-    console.log(this.gender);
+    
   }
 }
 
 let g1 = new Neo("Yuv", 24);
+g1.logData()
+let g2 = new Neo("Yff", 23,'male');
+g2.logData()
