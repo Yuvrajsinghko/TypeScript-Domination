@@ -100,7 +100,11 @@ class Device{
     category="digital"
 }
 
-let d1=new Device();
+class bottleMaker{
+  constructor(public name:string,public price:number){
 
+  }
 
-let d2= new Device();
+}
+
+let d1 = new bottleMaker('milton',450)

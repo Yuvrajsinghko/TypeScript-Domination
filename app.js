@@ -43,5 +43,10 @@ class Device {
         this.category = "digital";
     }
 }
-let d1 = new Device();
-let d2 = new Device();
+class bottleMaker {
+    constructor(name, price) {
+        this.name = name;
+        this.price = price;
+    }
+}
+let d1 = new bottleMaker('milton', 450);
