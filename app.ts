@@ -169,20 +169,20 @@ let b1 = new TunaMeta("hella");
 class Bexi {
   constructor(public _name: string, public age: number) {}
 
-  get name(){
-    return this._name
+  get name() {
+    return this._name;
   }
-  set name(value:string){
-    this._name=value
+  set name(value: string) {
+    this._name = value;
   }
 }
 
 //Static Members
 
-class Hero{
+class Hero {
   static version = 1.2;
 
-  static getRandomNum(){
-    return Math.floor(Math.random()*5)
+  static getRandomNum() {
+    return Math.floor(Math.random() * 5) + 1;
   }
 }

@@ -84,7 +84,7 @@ class Bexi {
 //Static Members
 class Hero {
     static getRandomNum() {
-        return Math.floor(Math.random() * 5);
+        return Math.floor(Math.random() * 5) + 1;
     }
 }
 Hero.version = 1.2;
