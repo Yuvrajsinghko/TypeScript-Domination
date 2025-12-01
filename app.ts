@@ -177,5 +177,12 @@ class Bexi {
   }
 }
 
-let u1 = new Bexi("Yuv",24)
-u1._name
+//Static Members
+
+class Hero{
+  static version = 1.2;
+
+  static getRandomNum(){
+    return Math.floor(Math.random()*5)
+  }
+}
