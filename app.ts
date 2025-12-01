@@ -169,3 +169,7 @@ let g1 = new Neo("Yuv", 24);
 g1.logData()
 let g2 = new Neo("Yff", 23,'male');
 g2.logData()
+
+
+//getters and setters
+
