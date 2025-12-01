@@ -190,3 +190,8 @@ class Hero {
 
 //Abstract classes and objects
 
+//a class which is not initiated but used a base idea
+
+//functions
+
+
