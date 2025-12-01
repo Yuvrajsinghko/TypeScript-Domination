@@ -172,6 +172,9 @@ class Bexi {
   getName() {
     return this.name;
   }
+  setName(value:string){
+    this.name=value
+  }
 }
 
 let u1 = new Bexi("Yuv",24)

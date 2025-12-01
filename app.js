@@ -81,5 +81,8 @@ class Bexi {
     getName() {
         return this.name;
     }
+    setName(value) {
+        this.name = value;
+    }
 }
 let u1 = new Bexi("Yuv", 24);
