@@ -91,3 +91,10 @@ Hero.version = 1.2;
 //Abstract classes and objects
 //a class which is not initiated but used a base idea
 //functions
+function ad(name, cf) {
+    cf("yuvraj");
+}
+//function Types
+ad("yuv", (value) => {
+    console.log(value);
+});

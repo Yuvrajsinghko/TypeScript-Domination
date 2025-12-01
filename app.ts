@@ -187,11 +187,21 @@ class Hero {
   }
 }
 
-
 //Abstract classes and objects
 
 //a class which is not initiated but used a base idea
 
 //functions
 
+function ad(name:string,cf:(value:string)=>void){
+  cf("yuvraj")
+}
 
+//function Types
+
+ad("yuv",(value:string)=>{
+  console.log(value);
+  
+  
+  
+})
