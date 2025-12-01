@@ -70,6 +70,16 @@ class Neo {
 }
 let g1 = new Neo("Yuv", 24);
 g1.logData();
-let g2 = new Neo("Yff", 23, 'male');
+let g2 = new Neo("Yff", 23, "male");
 g2.logData();
 //getters and setters
+class Bexi {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    getName() {
+        return this.name;
+    }
+}
+let u1 = new Bexi("Yuv", 24);
