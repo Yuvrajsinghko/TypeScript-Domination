@@ -51,27 +51,23 @@ let b1 = new TunaMeta("hella");
 // }
 // let f1 = new Neon("Yuvraj");
 // f1.changeName();
-class Neo {
-    constructor(name, age, gender) {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-        if (!this.gender) {
-            console.log("Not mentioned");
-        }
-        else {
-            console.log(this.gender);
-        }
-    }
-    logData() {
-        console.log(this.name);
-        console.log(this.age);
-    }
-}
-let g1 = new Neo("Yuv", 24);
-g1.logData();
-let g2 = new Neo("Yff", 23, "male");
-g2.logData();
+// class Neo {
+//   constructor(public name: string, public age: number, public gender?: string) {
+//     if (!this.gender) {
+//       console.log("Not mentioned");
+//     } else {
+//       console.log(this.gender);
+//     }
+//   }
+//   logData() {
+//     console.log(this.name);
+//     console.log(this.age);
+//   }
+// }
+// let g1 = new Neo("Yuv", 24);
+// g1.logData();
+// let g2 = new Neo("Yff", 23, "male");
+// g2.logData();
 //getters and setters
 class Bexi {
     constructor(name, age) {
@@ -86,3 +82,4 @@ class Bexi {
     }
 }
 let u1 = new Bexi("Yuv", 24);
+u1.setName("bheem");
