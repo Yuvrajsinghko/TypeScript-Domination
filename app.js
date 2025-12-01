@@ -88,3 +88,4 @@ class Hero {
     }
 }
 Hero.version = 1.2;
+//Abstract classes and objects
