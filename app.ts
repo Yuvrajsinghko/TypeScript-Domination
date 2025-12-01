@@ -167,15 +167,15 @@ let b1 = new TunaMeta("hella");
 //getters and setters
 
 class Bexi {
-  constructor(public name: string, public age: number) {}
+  constructor(public _name: string, public age: number) {}
 
-  getName() {
-    return this.name;
+  get name(){
+    return this._name
   }
-  setName(value:string){
-    this.name=value
+  set name(value:string){
+    this._name=value
   }
 }
 
 let u1 = new Bexi("Yuv",24)
-u1.setName("bheem")
+u1._name

@@ -70,16 +70,16 @@ let b1 = new TunaMeta("hella");
 // g2.logData();
 //getters and setters
 class Bexi {
-    constructor(name, age) {
-        this.name = name;
+    constructor(_name, age) {
+        this._name = _name;
         this.age = age;
     }
-    getName() {
-        return this.name;
+    get name() {
+        return this._name;
     }
-    setName(value) {
-        this.name = value;
+    set name(value) {
+        this._name = value;
     }
 }
 let u1 = new Bexi("Yuv", 24);
-u1.setName("bheem");
+u1._name;
