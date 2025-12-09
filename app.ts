@@ -193,15 +193,17 @@ class Hero {
 
 //functions
 
-function ad(name:string,cf:(value:string)=>void){
-  cf("yuvraj")
+function ad(name: string, cf: (value: string) => void) {
+  cf("yuvraj");
 }
 
 //function Types
 
-ad("yuv",(value:string)=>{
+ad("yuv", (value: string) => {
   console.log(value);
-  
-  
-  
-})
+});
+
+
+// optional and default parameters
+
+

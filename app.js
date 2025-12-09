@@ -98,3 +98,4 @@ function ad(name, cf) {
 ad("yuv", (value) => {
     console.log(value);
 });
+// optional and default parameters
