@@ -9,7 +9,7 @@ let isAdmin = true;
 //Arrays
 let number: number[] = [4, 5, 6, 3, 2];
 let names: string[] = ["a", "b", "c"];
-let person: [string, number] = ["Piyush", 25];
+let person: [string|number, number] = ["Piyush", 25];
 
 //Enum(Specific type of values only)
 
